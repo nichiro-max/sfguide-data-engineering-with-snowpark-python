@@ -49,7 +49,7 @@ def main(session: Session) -> str:
 
     # Process data incrementally
     merge_order_updates(session)
-#    session.table('HARMONIZED.ORDERS').limit(5).show()
+    session.table('HARMONIZED.ORDERS').limit(5).show()
 
     return f"Successfully processed ORDERS"
 

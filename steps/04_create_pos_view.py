@@ -110,4 +110,4 @@ if __name__ == "__main__":
     with Session.builder.getOrCreate() as session:
         create_pos_view(session)
         create_pos_view_stream(session)
-#        test_pos_view(session)
+        test_pos_view(session)

@@ -2,7 +2,7 @@
 #export SNOWFLAKE_DEFAULT_CONNECTION_NAME="default"
 
 [default]
-account = "DGWWIDW.GD50985"
+account = "vk90648.central-india.azure"
 user = "CYBERSAIYAN"
 password = "Cybersaiyan@110201"
 role = "HOL_ROLE"
